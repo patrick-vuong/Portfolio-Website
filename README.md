@@ -1,4 +1,7 @@
+
 # Personal Portfolio Website
+
+**🔗 [View Live Portfolio](https://patrick-vuong.github.io/Portfolio-Website/)**
 
 ## Overview
 This is my personal portfolio website showcasing my skills, projects, and professional experience. The site is designed to highlight my work and provide contact information for potential employers or collaborators.
