@@ -22,7 +22,9 @@ portfolio-website/
 │   └── main.js
 ├── assets/
 │   ├── images/
-│   └── resume/
+│   ├── fonts/
+│   ├── icons/
+│   └── uploads/
 └── .gitignore
 ```
 
@@ -31,6 +33,16 @@ portfolio-website/
 2. Open the project folder in VS Code
 3. Launch the site by opening `index.html` in your browser
 4. For development with live reload, consider using extensions like Live Server
+
+## Assets folder
+
+Static assets for the site live in `assets/` with the following subfolders:
+- `assets/images/` — site images (.png, .jpg, .svg)
+- `assets/fonts/` — web fonts
+- `assets/icons/` — SVG icons
+- `assets/uploads/` — miscellaneous files you want to reference
+
+Drop files into those folders and commit them; `.gitkeep` files are present so the folders are tracked when empty.
 
 ## Features
 - Responsive design that works on desktop and mobile devices
