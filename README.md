@@ -24,6 +24,9 @@ Portfolio-Website/
 │   └── styles.css
 ├── js/
 │   └── main.js
+├── assets/
+│   ├── images/
+│   └── resume/
 └── .gitignore
 ```
 
