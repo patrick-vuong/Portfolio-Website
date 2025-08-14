@@ -192,14 +192,13 @@ nav ul li a:hover {
 /* Profile photo styling (header) */
 
 .profile-photo {
-    width: 380px;
+    width: 520px;
     max-width: 100%;
     height: auto;
     aspect-ratio: 2/3;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.12);
-    background-color: #fff;
 }
 
 /* Optional overlap style — uncomment if you want the photo to overlap the hero section */
@@ -209,14 +208,14 @@ nav ul li a:hover {
 
 @media (max-width: 992px) {
     .profile-photo {
-        width: 260px;
+        width: 320px;
         aspect-ratio: 2/3;
     }
 }
 
 @media (max-width: 768px) {
     .profile-photo {
-        width: 180px;
+        width: 200px;
         aspect-ratio: 2/3;
     }
 }
