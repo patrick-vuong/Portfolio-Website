@@ -190,13 +190,15 @@ nav ul li a:hover {
 }
 
 /* Profile photo styling (header) */
+
 .profile-photo {
-    width: 240px;
-    height: 240px;
+    width: 380px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 2/3;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.12);
-    border: 6px solid rgba(255,255,255,0.95);
     background-color: #fff;
 }
 
@@ -207,15 +209,15 @@ nav ul li a:hover {
 
 @media (max-width: 992px) {
     .profile-photo {
-        width: 200px;
-        height: 200px;
+        width: 260px;
+        aspect-ratio: 2/3;
     }
 }
 
 @media (max-width: 768px) {
     .profile-photo {
-        width: 160px;
-        height: 160px;
+        width: 180px;
+        aspect-ratio: 2/3;
     }
 }
 
