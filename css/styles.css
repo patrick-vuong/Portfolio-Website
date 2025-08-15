@@ -147,6 +147,21 @@ nav ul li a:hover {
     color: var(--dark-color);
 }
 
+.hero-dots {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-dots .dot {
+    width: 12px;
+    height: 12px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
